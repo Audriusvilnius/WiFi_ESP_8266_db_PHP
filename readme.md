@@ -59,7 +59,9 @@ Skaitmeninio multiplekserio modulio kontaktų C0, C1, C3 pajungimas prie kontrol
 
 pav. 5 Skaitmeninio multiplekserio modulio kontaktų pajungimas
 Skaitmeninio multiplekserio modulio kontaktų C4, C5, C6, C7  pajungimas prie kontrolinių jungiklių imituojančių suveikimo jungiklius, pajungimas per vieną jungiklį (pav. 6).
- <img width="251" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/eff23b6c-5909-47ff-ba4d-d47ae73803a5">
+
+<img width="259" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/86ad07eb-a7bb-4626-9c6c-a0472e3941c5">
+
 
 pav. 6 Skaitmeninio multiplekserio modulio kontaktų C4, C5, C6, C7 pajungimas
 ![image](https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/c5ab55a3-a2a9-407a-a0fc-eba56f25422e)
