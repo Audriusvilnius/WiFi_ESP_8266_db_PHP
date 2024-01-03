@@ -7,8 +7,10 @@ Setup:
    * `https://github.com/Audriusvilnius/arduino_php`
   
 3. ĮVADAS
-* Darbo projekto pavadinimas – Apsaugos sistema skirta namų ar panašaus objekto apsaugai, valdoma per WEB sąsaja, apsaugota dviejų faktorių autentifikacija (2FA) ir rodmenų duomenų baze. 
+* Darbo projekto pavadinimas – Apsaugos sistema skirta namų ar panašaus objekto apsaugai, valdoma per WEB sąsaja, apsaugota dviejų faktorių autentifikacija (2FA) ir rodmenų duomenų baze.
+* 
 <img width="468" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/e2add462-830f-4fe6-9805-f979227b4fa3">
+
 *  Darbo užduotis:
   Pagrindinė užduotis: Surinkti pateiktą schemą ir pateikti apsaugos sistemos prototipą valdomą per WEB vartotojo sąsaja su integruota dvigubos autentifikacijos sistema, pateikti sketch.ino failą su veikiančiu sprendimu. Vartotojo sąsajoje turi būti galimybė valdyti objekto apsaugos sistema:
 1.	Įjungti / išjungti apsaugos sistema;
