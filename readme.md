@@ -7,6 +7,10 @@
    * `https://github.com/Audriusvilnius/Two-Factor-Authentication`
 2. Start code from repo:
    * `https://github.com/Audriusvilnius/arduino_php`
+   * Edit db conections host rout
+3. Uplaud code to NodeMCU ESP 8266 from file:
+   * `WiFi_esp_8266_db_PHP_1_1.ino`
+   * Edit wifi and db conections
   
 
 
