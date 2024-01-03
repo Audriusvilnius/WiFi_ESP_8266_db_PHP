@@ -44,6 +44,7 @@ Darbo eiga:
 
 * REALIZAVIMAS
 Vartotojo sąsajos kodas realizuotas pasitelkiant LARAVEL v10.25.2  plugin v0.8.1 versija. Vartotojo sąsajos vaizdas (pav. 2). Vartotojo sąsajoje sistemos įjungimas / išjungimas. Pokyčiu atvaizdavimas skirtingų spalvų jungikliais, bei informaciniais užrašais.
+
 <img width="211" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/5238cd2f-f92d-4279-902d-e87bc3c09252">
 
 ####  Padidiname NodeMCU  analoginių jungčių kieki iki 16 prijungiant skaitmeninį multiplekserio modulį per A0 skaitmeninę jungtį ir jungtis D0, D1, D2, D3 pagal pateiktą schemą (pav. 3).
@@ -55,17 +56,11 @@ Papildomu NodeMCU jungčių D5, D6, D7, D8 pajungimas prie LED diodų per 220Ω 
 
 pav. 4 LED pajungimas D5, D6, D7, D8 jungtys
 Skaitmeninio multiplekserio modulio kontaktų C0, C1, C3 pajungimas prie kontrolinių jungiklių imituojančių suveikimo jungiklius (pav. 5).
+
 <img width="251" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/908e6321-366e-4e79-b7c9-6367ecd319f2">
 
+<img width="455" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/56053e61-23ed-4e84-81c8-6bfa3fc65ca9">
 
-pav. 5 Skaitmeninio multiplekserio modulio kontaktų pajungimas
-Skaitmeninio multiplekserio modulio kontaktų C4, C5, C6, C7  pajungimas prie kontrolinių jungiklių imituojančių suveikimo jungiklius, pajungimas per vieną jungiklį (pav. 6).
-
-<img width="259" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/86ad07eb-a7bb-4626-9c6c-a0472e3941c5">
-
-
-pav. 6 Skaitmeninio multiplekserio modulio kontaktų C4, C5, C6, C7 pajungimas
-![image](https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/c5ab55a3-a2a9-407a-a0fc-eba56f25422e)
 
 
 
