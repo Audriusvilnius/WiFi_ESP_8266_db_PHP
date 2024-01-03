@@ -8,7 +8,6 @@ Setup:
   
 3. ĮVADAS
 * Darbo projekto pavadinimas – Apsaugos sistema skirta namų ar panašaus objekto apsaugai, valdoma per WEB sąsaja, apsaugota dviejų faktorių autentifikacija (2FA) ir rodmenų duomenų baze.
-* 
 <img width="468" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/e2add462-830f-4fe6-9805-f979227b4fa3">
 
 *  Darbo užduotis:
@@ -41,11 +40,12 @@ Darbo eiga:
  
 ### VEIKIMO PRINCIPAS
 * Daviklių, jutiklių ir valdiklių sistema nuskaito duomenų rodmenis. Surinktus duomenis siunčia interneto pagalbą į MySQL duomenų bazės serverius. Duomenų bazes serveris atlieka duomenų įpašymą į domenų baze. Prieiga prie duomenų ir apsaugos sistemos vartotojas gali valdyti tik atlikęs dvigubos autentifikacijos procedūrą. Sistema tikrina langų, durų, vartų, kiemo vartų, patalpų judesio daviklių, stiklo dūžių, gaisro bei perimetro jutiklių rodmenys. Sistema valdo durų, vartų ir perimetro sistema aktyvioje ir neaktyvioje sistemos būsenoje t.t. gali būti valdomi šie mazgai nepriklausomai nuo pagrindinės sistemos statuso (pav. 1).
-* 
 <img width="333" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/e0c5285e-6b18-4b10-bc08-0d1bcfa6d47b">
+
 * REALIZAVIMAS
 Vartotojo sąsajos kodas realizuotas pasitelkiant LARAVEL v10.25.2  plugin v0.8.1 versija. Vartotojo sąsajos vaizdas (pav. 2). Vartotojo sąsajoje sistemos įjungimas / išjungimas. Pokyčiu atvaizdavimas skirtingų spalvų jungikliais, bei informaciniais užrašais.
 <img width="211" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/5238cd2f-f92d-4279-902d-e87bc3c09252">
+
 ###  Padidiname NodeMCU  analoginių jungčių kieki iki 16 prijungiant skaitmeninį multiplekserio modulį per A0 skaitmeninę jungtį ir jungtis D0, D1, D2, D3 pagal pateiktą schemą (pav. 3).
  
 pav. 3 SparkFun CD74HC4067 analoginis / skaitmeninio multiplekserio modulio - 16 kanalų pajungimas prie NodeMCU
