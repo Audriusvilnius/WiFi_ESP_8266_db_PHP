@@ -9,20 +9,20 @@ Setup:
 3. ĮVADAS
 * Darbo projekto pavadinimas – Apsaugos sistema skirta namų ar panašaus objekto apsaugai, valdoma per WEB sąsaja, apsaugota dviejų faktorių autentifikacija (2FA) ir rodmenų duomenų baze. 
 <img width="468" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/e2add462-830f-4fe6-9805-f979227b4fa3">
-###  Darbo užduotis: 
-Pagrindinė užduotis: Surinkti pateiktą schemą ir pateikti apsaugos sistemos prototipą valdomą per WEB vartotojo sąsaja su integruota dvigubos autentifikacijos sistema, pateikti sketch.ino failą su veikiančiu sprendimu. Vartotojo sąsajoje turi būti galimybė valdyti objekto apsaugos sistema:
-* 1.	Įjungti / išjungti apsaugos sistema;
-* 2.	Fiksuot apsaugos sistemos objekto statusą ir pokyčius sistemoje realiuoju laiku;
-* 4.	Valdyti atskirus objekto mazgus (atrakint / užrakint vartus, duris);
-* 5.	Įjungti / išjungti papildomu modulius neatjungiant pagrindinių sistemų;
-* 6.	Duomenų ir pokyčių valdymo fiksavimas įrašant ir nuskaitant duomenis į duomenų bazės serverius naudojant MySQL duomenų baze;
-* 7.	Vartotojo sąsaja (realizuota su responsive web design);
-* 8.	Įrenginio sąsaja;
-* 9.	Apsaugos sistemos įrenginys naudoja Wifi duomenų perdavimo ryši prisijungimui prie interneto;
-* 10.	Duomenų perdavimas į duomenų baze iš įrenginio pusės vyksta per html POST formos užklausą įrašant duomenys tiesiai į duomenų bazes;
-* 11.	Įrenginio duomenų nuskaitymui iš duomenų bazių duomenys pateikiami JSON formatu.
-* 12.	Vartotojas per vartotojo sąsaja įgalina programa įrašyti duomenis į duomenų baze.
-### Schemą sudaro šie elementai:
+*  Darbo užduotis:
+  Pagrindinė užduotis: Surinkti pateiktą schemą ir pateikti apsaugos sistemos prototipą valdomą per WEB vartotojo sąsaja su integruota dvigubos autentifikacijos sistema, pateikti sketch.ino failą su veikiančiu sprendimu. Vartotojo sąsajoje turi būti galimybė valdyti objekto apsaugos sistema:
+1.	Įjungti / išjungti apsaugos sistema;
+2.	Fiksuot apsaugos sistemos objekto statusą ir pokyčius sistemoje realiuoju laiku;
+3.	Valdyti atskirus objekto mazgus (atrakint / užrakint vartus, duris);
+4.	Įjungti / išjungti papildomu modulius neatjungiant pagrindinių sistemų;
+5.	Duomenų ir pokyčių valdymo fiksavimas įrašant ir nuskaitant duomenis į duomenų bazės serverius naudojant MySQL duomenų baze;
+6.	Vartotojo sąsaja (realizuota su responsive web design);
+7.	Įrenginio sąsaja;
+8.	Apsaugos sistemos įrenginys naudoja Wifi duomenų perdavimo ryši prisijungimui prie interneto;
+9.	Duomenų perdavimas į duomenų baze iš įrenginio pusės vyksta per html POST formos užklausą įrašant duomenys tiesiai į duomenų bazes;
+10.	Įrenginio duomenų nuskaitymui iš duomenų bazių duomenys pateikiami JSON formatu.
+11.	Vartotojas per vartotojo sąsaja įgalina programa įrašyti duomenis į duomenų baze.
+***  Schemą sudaro šie elementai:
 * 1.	ESP8266 NodeMCU įrenginys;
 * 2.	SparkFun CD74HC4067 analoginis / skaitmeninis multiplekserio modulis - 16 kanalų
 * 3.	WEB serveris vartotojo sąsajai;
