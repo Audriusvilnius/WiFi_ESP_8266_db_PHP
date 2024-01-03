@@ -24,7 +24,7 @@ Setup:
 9.	Duomenų perdavimas į duomenų baze iš įrenginio pusės vyksta per html POST formos užklausą įrašant duomenys tiesiai į duomenų bazes;
 10.	Įrenginio duomenų nuskaitymui iš duomenų bazių duomenys pateikiami JSON formatu.
 11.	Vartotojas per vartotojo sąsaja įgalina programa įrašyti duomenis į duomenų baze.
-***  Schemą sudaro šie elementai:
+**  Schemą sudaro šie elementai:
 * 1.	ESP8266 NodeMCU įrenginys;
 * 2.	SparkFun CD74HC4067 analoginis / skaitmeninis multiplekserio modulis - 16 kanalų
 * 3.	WEB serveris vartotojo sąsajai;
@@ -54,7 +54,8 @@ Papildomu NodeMCU jungčių D5, D6, D7, D8 pajungimas prie LED diodų per 220Ω 
 
 pav. 4 LED pajungimas D5, D6, D7, D8 jungtys
 Skaitmeninio multiplekserio modulio kontaktų C0, C1, C3 pajungimas prie kontrolinių jungiklių imituojančių suveikimo jungiklius (pav. 5).
- <img width="211" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/7d7702c1-e612-49b8-945f-bde21f20f297">
+<img width="251" alt="image" src="https://github.com/Audriusvilnius/WiFi_ESP_8266_db_PHP/assets/101082768/908e6321-366e-4e79-b7c9-6367ecd319f2">
+
 
 pav. 5 Skaitmeninio multiplekserio modulio kontaktų pajungimas
 Skaitmeninio multiplekserio modulio kontaktų C4, C5, C6, C7  pajungimas prie kontrolinių jungiklių imituojančių suveikimo jungiklius, pajungimas per vieną jungiklį (pav. 6).
