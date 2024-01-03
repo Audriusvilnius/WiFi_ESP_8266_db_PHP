@@ -6,8 +6,8 @@
 #define ON_Board_LED 2  //--> Defining an On Board LED (GPIO2 = D4), used for indicators when the process of connecting to a wifi router, read and write db
 
 //----------------------------------------SSID and Password of your WiFi router.
-const char* ssid = "ZTE_6D2D1D";      //--> wifi name or SSID.
-const char* password = "2HD56275A2";  //--> wifi password.
+const char* ssid = "*******";      //--> wifi name or SSID.
+const char* password = "*******";  //--> wifi password.
 
 //----------------------------------------Web Server address / IPv4
 String host_or_IPv4 = "http://192.168.0.178/";
